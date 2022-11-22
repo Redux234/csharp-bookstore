@@ -13,7 +13,7 @@ bool kindle = true;
 bool copertinarigida = false;
 
 Console.WriteLine("---------------------------------- Il Libro Di Oggi--------------------------------------");
-Console.WriteLine("");
+Console.WriteLine();
 Console.WriteLine(titolo + " di " + autore);
 Console.WriteLine();
 Console.WriteLine("-----------------------------------------------------------------------------------------");
@@ -23,7 +23,7 @@ Console.WriteLine("ISBN: " + isbn10 + "    " + isbn13);
 Console.WriteLine("Numero Di Pagine: " + pagine + " Pagine");
 Console.WriteLine("Peso Del Libro: " + peso + " Kg");
 Console.WriteLine("Dimensioni Del Libro: " + larghezza + " x " + altezza + " x " + profondità + " cm");
-Console.WriteLine("");
+Console.WriteLine();
 Console.WriteLine("Informazioni Amazon:");
 Console.WriteLine("Numero Di Recensioni: " + numerovalutazioni + " Recensioni");
 Console.WriteLine("Valutazione Media: " + valutazione + " Stelline");
